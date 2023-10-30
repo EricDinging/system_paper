@@ -7,6 +7,8 @@
 
 ## Ideas
 
+## Methods
+
 ## Results
 
 ## Application
