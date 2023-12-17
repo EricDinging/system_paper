@@ -3,6 +3,8 @@
 
 ## Challenges
 
+## Backgrounds
+
 ## Observations
 
 ## Ideas
