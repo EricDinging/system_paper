@@ -43,7 +43,18 @@ handling failures in the wide area
 ## Contribution
 
 ## Methods
+- Hybrid: a centralized controller makes decision slowly and clusters make decisions quickly
+- As a control plane, VDN (1) populates application layer forwarding tables at each cluster with centrally
+computed entries, (2) creates forwarding table entries
+on-the-fly when necessary using distributed control, and
+(3) updates the client to edge server mapping accordingly
+in the DNS infrastructure.
 
+- Controller uses Paxos for synchronization
+
+1. Initial requests from client to DNS
+2. Distribution of state, d(v, b) and c(v, b), like Distance vector protocol. Prioritize global information. If necessary, consult distributed control 
+![system](./vdn.png)
 ## Results
 
 ## Application
