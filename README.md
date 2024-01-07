@@ -45,3 +45,6 @@ Repo for interesting system papers
 └── verification
     └── ironsync-osdi23.md
 ```
+
+## Paper Queue
+- https://www.usenix.org/system/files/nsdi23-bai.pdf
