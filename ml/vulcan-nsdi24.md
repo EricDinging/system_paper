@@ -21,9 +21,18 @@
 
 ## Methods
 - Define a metric to quantify each operator in the pipeline, converting the complexity of filter ordering from exponential to linear
+- Select the ordering of the filter
+    - Based on a metric defined by precision and recall
+    - Treating a set of filters as a bulk filter to prune search space
+- Placement
+    - Reducing search cost by reusing intermediate results from pipeline runs
+    - Early pruning unpromising placement choices
 - Identifies components of ML pipelines that are independent of placement
 - Efficiently explores the best combination of configuration knobs using Bayesian Optimization
+    - BO is a methodology for optimizing expensive objective functions
 - Adapt quickly to dynamic changes in data and resources
+    - Monitor utility change to detect runtime dynamics
+    - Leverage prior knowledge during profiling
 ## Results
 
 ## Application
