@@ -1,9 +1,10 @@
 # [NAME](link)
 ## Problem
 
+## Backgrounds
+
 ## Challenges
 
-## Backgrounds
 
 ## Observations
 
