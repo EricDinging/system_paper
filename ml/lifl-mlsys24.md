@@ -32,4 +32,5 @@
 ## Limitation
 1. No CDN, all servers are in one nodes
 2. How eager aggregation works with hierarchy?
+3. Why serverful design is slow? gRPC? Resource?
 ## Questions
