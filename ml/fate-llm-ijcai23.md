@@ -49,8 +49,12 @@ Clients transfer their knowledge to the LLM hosted by the server through offsite
 ## Application
 
 ## Limitation
+- Small clients (2 clients) and LAN network environment in experiments
+- Claim a scale of 30 clients maximum
+- Inferior in performance than centralized counterpart, slight improvement over client trained models
 
-## Questions & future direction
+## Related concepts
 1. Knowledge distillation https://pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html
-2. Adapter/prompt
+2. Adapter/prompt vs. finetuining
 3. PEFT
+4. LoRa
