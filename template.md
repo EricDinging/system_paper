@@ -20,4 +20,6 @@
 
 ## Limitation
 
+## Related concepts
+
 ## Questions
