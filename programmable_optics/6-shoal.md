@@ -5,7 +5,8 @@ Shoal is a power-efficient and performant network design for disaggregated racks
 
 ## Pros
 1. Shoal uses coordination-free routing with latency guarantees, obviating the need for a central controller.
-2. Shoal improves the transport layer using backpressure-based congestion control for efficient multi-pathing routing.
+2. Shoal improves the link layer using backpressure-based congestion control for efficient multi-pathing routing.
 
 ## Cons
 1. Shoal is limited to disaggregated network architecture.
+2. Shoal does not address the compatibility with transport layer protocols like TCP.
