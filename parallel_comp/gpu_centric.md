@@ -20,11 +20,7 @@ Where is the page table stored when using UVA?
 ## Please provide a question for in-class discussion.
 If GPU is responsible for all communication, do the communication protocols have congestion control and reliability guarantees? If so, is it efficient to implement these logic using GPU?
 
-Well communication content with computation to a certain degree?
-Could they co-exist in one kernel?
 
-
-infinity fabric
 PCIe
 NVLink
 
@@ -32,4 +28,9 @@ GPU direct async: pre-register?
 
 How does NCCL implement communication and computation in one kernel?
 
+Address in NVLINK network
 
+What is the infiniband/roce protocol details
+
+UCX?
+MSCCL
