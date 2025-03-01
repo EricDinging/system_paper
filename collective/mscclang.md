@@ -12,4 +12,4 @@ The speedup over NCCL is limited over input sizes.
 
 
 ## Questions
-What is inter-instruction dependencies
+What are inter-instruction dependencies
