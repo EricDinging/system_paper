@@ -1,0 +1,15 @@
+# Resiliency at Scale: Managing Google’s TPUv4 Machine Learning Supercomputer
+
+## Summary
+This paper shares the Google's experience in operating TPUv4 supercomputer. The supercomputer adopt a SDN for interconnect management that allows high fault tolerance and high availability. The infrastructure detects failures and automatically triggers reconfiguration to minimize disruption to running workloads. As a result, the supercomputer could achieve 99.98% system availability.
+## Pro
+- Software-hardware co-design
+- The stack provides failure notification to application.
+
+## Con
+- The pod manager may allocate a resource for a workload with no information of under-lying topology, leading to resource fragmentation. The detaied implementation is not showmn.
+- One machine failure in a pod will take down the entire cube.
+- During routing table construction, all-to-all is typically chosen as the traffic pattern and supplemental constraints ensure other collectives (e.g. all-reduce) perform well
+
+## Things to notice
+- The ICI forwarding tables are programmed once by libtpunet at job start-up, and remain fixed over the job’s lifetime.

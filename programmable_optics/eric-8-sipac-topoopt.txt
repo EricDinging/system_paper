@@ -1,0 +1,23 @@
+# Flexible silicon photonic architecture for accelerating distributed deep learning
+
+## Summary
+This work introduces using silicon photonics-based compute cluster to accelerate multi-tenant ML workloads through optimizing collective communication on the hardware. The hardware includes a wavelength-reconfigurable transceiver design and a wavelength-reconfigurable switch. The collective algorithm is also designed to work on the reconfigurable network fabrics. In large scale simulation, Flex-SiPAC is able to reduce the communication time by 26% to 29%.
+
+## Pros
+- Allows circuit switching in fine-granularity
+- Allows optical multi-casting
+
+## Cons
+- Individual CU need multiple optical ports
+- Assumes jobs are placed sequentially onto the cluster
+
+# TOPOOPT: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs
+
+## Summary
+Topoopt is a direct-connect fabrics for DL workloads using optics. Based on the communication patterns of AllReduce and its mutability characterestics, TopoOpt is able to construct efficient network topologies. The researchers demonstrate the performance of TopoOpt on a 12-node direct-connect prototype with RDMA enabled, and also through large-scale simulation, enabling significant performance enhancement 
+
+## Pros
+- The work leverages cross-stack optimization based on insights from traffic pattern analysis.
+
+## Cons
+- The topology needs to rely on traffic aggregation (TOR) to scale.
