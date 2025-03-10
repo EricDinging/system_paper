@@ -13,3 +13,5 @@ A flexible network topology that help embed toridal ML communication pattern. Ha
 ## Question
 1. Dragonfly
 2. Packet spraying
+3. Multiple interfaces per chip
+4. Hamiltonian cycles
