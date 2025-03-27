@@ -1,0 +1,12 @@
+# InterTubes: A Study of the US Long-haul Fiber-optic Infrastructure
+
+## Summary
+
+The paper build a map of optical infrastructure. The researchers show how to reduce risk and latency by deploying new links along previously unused transportation corridors. They conclude that focusing on a subset of high-risk links is sufficient to improve the overall robustness of the network to failures.
+
+## Pros
+- Create a map of optical infrastructure using publicly available data and traceroutes measurements.
+- Develop a model to infer additional peering (hops) that can improve the overall robustness of the network.
+
+## Cons
+- Would love to see they have a macro-benchmark based on simulation for their design.
