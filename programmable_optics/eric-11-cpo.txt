@@ -1,0 +1,8 @@
+# Co‑packaged optics (CPO): status, challenges, and solutions
+
+## Summary
+
+The paper discusses the motivation behind CPO: high bandwidth requirement from application and optics consuming a growing power budget of the datacenter. It shows how CPO could solve those issues by removing optical engines on the front panel with limited sizes and removing power-hungrey DSP and SerDes. It also points out potential deployment challenges from micro-ring transmitter sensitivity and package thermal management.
+
+## Con
+I hope this paper could provide more technical discussions on the working mechanisms of CPO components. And it could give more comparisons on different CPO methods. 
